@@ -14,9 +14,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@AutoConfigureStubRunner(ids = "capbility.thoughtworks.com:goods:+:stubs:8080",
-        stubsMode = StubRunnerProperties.StubsMode.REMOTE,
-        repositoryRoot = "http://52.82.64.147:8081/nexus/content/repositories/snapshots/")
+@AutoConfigureStubRunner()
 public class GoodsClientApplicationTests {
 
     @Test

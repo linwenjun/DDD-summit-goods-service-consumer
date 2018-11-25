@@ -1,0 +1,5 @@
+stubrunner:
+  stubsMode: REMOTE
+  repositoryRoot: ${MAVEN_REPO}
+  ids:
+  - capbility.thoughtworks.com:goods:+:8080
